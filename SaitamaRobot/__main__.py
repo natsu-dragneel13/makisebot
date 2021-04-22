@@ -52,20 +52,20 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey {}, I am {}!* 
-*A multipurpose group management bot, themed from* [Steins;Gate](https://anilist.co/anime/9253)!
+*A multipurpose group management bot, themed from* [Darling In The FranXX](https://t.me/Anime_Collectors/2336)!
 
 """
 
 HELP_STRINGS = """
-💝 [Kurisu](https://telegra.ph/file/1f6e348461d5a7eed0df7.gif) 💝 comes with :-
-*AI Chatbot*, *Anime*, *Music*, *Notes*, *Filters* and *NSFW* functions!
+[Kurisu](https://telegra.ph/file/bf139ffe9de3b964fe26c.gif) comes with Different Features which can Help you in managing Anime related groups Some of the Main features are :-
+*Anime*, *Music*, *Notes*, *Filters* and *NSFW* functions!
 • __All commands can either be used with__ `/` __or__ `!`.
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KURISU_IMG = "https://telegra.ph/file/083b9d84ba26180dcbffb.gif"
-KURISUIMGSTART = "https://telegra.ph/file/bd01a439fefb53170b36f.gif"
+KURISU_IMG = "https://telegra.ph/file/ff7be878c5a5b16ef2d5d.gif"
+KURISUIMGSTART = "https://telegra.ph/file/ff7be878c5a5b16ef2d5d.gif"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -187,32 +187,32 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Kurisu to your group",
+                            text=" Add Zero Two to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Kurisu Support",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="Zero Two Support ",
+                             url=f"https://t.me/Zero2botsupport"),
                          InlineKeyboardButton(
-                             text="🧭 Steins Updates",
-                             url="https://t.me/steinsupdates"),              
+                             text="FranXX Updates",
+                             url="https://t.me/zero2updates/14"),              
                     ],
                      [
                         InlineKeyboardButton(
-                             text="🔘 Getting Started Guide",
+                             text="Getting Started Guide",
                              url="https://t.me/Steinsupdates/7")                    
                     ],
                      [
                         InlineKeyboardButton(
-                             text="🀄️ IAS - Anime Chatroom 🀄️",
-                             url="https://t.me/animechatsofficialgrp")                    
+                             text="Our Anime Network"
+                             url="https://t.me/Anime_HeavenD")                    
                     ],                     
                       [
                         InlineKeyboardButton(
                              text="Help & Commands",
-                             url="https://t.me/Kurisu_Makise_Robot?start=help")      
+                             url="https://t.me/Zero_2_Robot?start=help")      
                     ]]))
     else:
         update.effective_message.reply_video(
