@@ -1,15 +1,15 @@
-![Kurisu](https://wallpapercave.com/wp/wp4088452.jpg)
-# Kurisu Robot 
+![𝐏𝐨𝐰𝐞𝐫🌈™](https://te.legra.ph/file/e470b4a3c26fee4096784.jpg)
+#  𒆜քօաɛʀ ɮօȶ 𒆜
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AnimeKaizoku/SaitamaRobot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/kurisuupdates)
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [Kurisu_Makise_robot](https://t.me/Kurisu_Makise_robot).
+Can be found on telegram as [Sassy_powet_bot](http://t.me/Sassy_powet_bot).
 
-The Support group can be reached out to at [Kurisu Support](https://t.me/Kurisu_Makise_support), where you can ask for help about [kurisu_makise_robot](https://t.me/Kurisu_Makise_robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Pσɯҽɾ ʂυρρσɾƚ](https://t.me/power_support_chat), where you can ask for help about [Sassy_powet_bot](http://t.me/Sassy_powet_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [steins Updates](https://t.me/kurisuupdates) 
+News channel as at [ᴾᵒʷᵉʳ ᵘᵖᵈᵃᵗᵉˢ](https://t.me/power_event_logs) 
 
 ## How to setup/deploy.
 
@@ -56,13 +56,13 @@ An example `config.py` file could be:
 from SaitamaRobot.sample_config import Config
 
 class Development(Config):
-    OWNER_ID = 1483971607  # your telegram ID
-    OWNER_USERNAME = "nezuko_chan02"  # your telegram username
-    API_KEY = "1498917276:AAEWYIKwfqTatXNuvaEfBl5BLETL9llaDZM"  # your api key, as provided by the @botfather
+    OWNER_ID =  1507799965 # your telegram ID
+    OWNER_USERNAME = "@Demonic_denji"  # your telegram username
+    API_KEY = "5172977282:AAHnZJpkrM3GsSmswFJM-ZoOHQ39Dp28OMA"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
-    JOIN_LOGGER = '-1001321966293' # some group chat that your bot is a member of
+    JOIN_LOGGER = '-1001486946677' # some group chat that your bot is a member of
     USE_JOIN_LOGGER = True
-    DRAGONS = [1396244257, 998194558, 979499093, 781807433, 1234713106]  # List of id's for users which have sudo access to the bot.
+    DRAGONS = [2011772847]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
 ```
