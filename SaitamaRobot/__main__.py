@@ -52,20 +52,20 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey {}, I am {}!* 
-*A multipurpose group management bot, themed from* [Darling In The FranXX](https://t.me/Anime_Collectors/2336)!
+*A multipurpose group management bot, themed from* [Chainsaw man](https://t.me/joinchat/h0Ku7ETR5E85YTdl)!
 
 """
 
 HELP_STRINGS = """
-[Kurisu](https://telegra.ph/file/bf139ffe9de3b964fe26c.gif) comes with Different Features which can Help you in managing Anime related groups Some of the Main features are :-
+[ᴘᴏᴡᴇʀ](https://te.legra.ph/file/fa4d9005516790edaa884.jpg) comes with Different Features which can Help you in managing Anime related groups Some of the Main features are :-
 *Anime*, *Music*, *Notes*, *Filters* and *NSFW* functions!
 • __All commands can either be used with__ `/` __or__ `!`.
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KURISU_IMG = "https://telegra.ph/file/ff7be878c5a5b16ef2d5d.gif"
-KURISUIMGSTART = "https://telegra.ph/file/ff7be878c5a5b16ef2d5d.gif"
+KURISU_IMG = "https://te.legra.ph/file/2fbfc78f39c7430893906.jpg"
+KURISUIMGSTART = "https://te.legra.ph/file/22ba4e0339aecbfc8ee1f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
